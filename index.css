@@ -23,9 +23,9 @@ nav {
 nav > a {
   text-decoration: none;
   color: black;
-  margin-right: -60px;
-  font-size: 15px;
-  padding: -10px;
+  margin-right: -4em;
+  font-size: 1em;
+  padding: -1em;
 }
 nav > img {
   height: 20px;
@@ -38,21 +38,21 @@ main {
 }
 
 main > img {
-  margin-bottom: 20px;
+  margin-bottom: 2em;
   width: 40%;
 }
 
-input {
-  height: 55px;
+/* input {
+  height: 50px;
   margin-bottom: 80px;
   width: 80%;
   padding: 1em;
   border-radius: 30px;
   border: 1px solid rgb(223, 225, 229);
-}
+} */
 
 .btn-class {
-  margin-top: 1em;
+  margin-top: -2.6em;
 }
 
 .btn-class > button {
@@ -62,7 +62,7 @@ input {
 
 footer {
   background-color: rgb(242, 242, 242);
-  margin-top: 10em;
+  margin-top: 15.1em;
 }
 .footer-top {
   padding: 1em;
@@ -79,4 +79,43 @@ footer {
 }
 .right > a {
   margin-right: 1em;
+}
+
+@media screen and (max-width: 798px) {
+  nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin-left: auto;
+    padding: 2em;
+  }
+
+  nav > a {
+    text-decoration: none;
+    color: black;
+    margin-right: -3em;
+    font-size: 1em;
+    padding: -1em;
+  }
+  nav > img {
+    height: 20px;
+  }
+  main {
+    width: 100%;
+    margin: 2em auto;
+    text-align: center;
+  }
+  /* input {
+    height: 50px;
+    margin-bottom: 80px;
+    width: 90%;
+    padding: 1em;
+    border-radius: 30px;
+    border: 1px solid rgb(223, 225, 229);
+  } */
+  .footer-bottom {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
