@@ -12,3 +12,19 @@ nav > a {
 nav > img {
   height: 20px;
 }
+
+main {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+input {
+  width: 80%;
+  padding: 1rem;
+  border-radius: 30px;
+  border: 1px solid gray;
+}
