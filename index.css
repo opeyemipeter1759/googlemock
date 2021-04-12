@@ -28,3 +28,12 @@ input {
   border-radius: 30px;
   border: 1px solid gray;
 }
+
+.btn-class {
+  margin-top: 1rem;
+}
+
+.btn-class > button {
+  padding: 1rem;
+  border: none;
+}
