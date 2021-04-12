@@ -1,3 +1,14 @@
+*,
+body,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
 nav {
   display: flex;
   width: 10%;
@@ -19,34 +30,41 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: auto;
+  margin: 7em auto;
 }
 
 input {
   width: 80%;
-  padding: 1rem;
+  padding: 1em;
   border-radius: 30px;
   border: 1px solid gray;
 }
 
 .btn-class {
-  margin-top: 1rem;
+  margin-top: 1em;
 }
 
 .btn-class > button {
-  padding: 1rem;
+  padding: 1em;
   border: none;
 }
 
 footer {
-  background-color: rgb(240, 236, 236);
+  background-color: rgb(242, 242, 242);
 }
 .footer-top {
-  padding: 1rem;
+  padding: 1em;
 }
 
 .footer-bottom {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1em;
+  border-top: 1px solid gray;
+}
+.left > a {
+  margin-right: 1em;
+}
+.right > a {
+  margin-right: 1em;
 }
