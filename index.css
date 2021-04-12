@@ -37,3 +37,16 @@ input {
   padding: 1rem;
   border: none;
 }
+
+footer {
+  background-color: rgb(240, 236, 236);
+}
+.footer-top {
+  padding: 1rem;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
