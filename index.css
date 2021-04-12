@@ -7,7 +7,7 @@ p {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: #222;
 }
 a:hover {
   text-decoration: underline;
@@ -22,17 +22,23 @@ nav {
 
 nav > a {
   text-decoration: none;
-  color: black;
-  margin-right: -4em;
+  color: #222;
+  margin-right: -1em;
   font-size: 1em;
   padding: -1em;
+}
+.profile-img {
+  border-radius: 50%;
+  object-fit: contain;
+  height: 40px;
+  margin-top: -10px;
 }
 nav > img {
   height: 20px;
 }
 
 main {
-  width: 50%;
+  width: 49%;
   margin: 2em auto;
   text-align: center;
 }
@@ -53,10 +59,11 @@ main > img {
   border-radius: 999px;
   width: 80%;
   margin: 0 auto;
-  margin-top: 48px;
   max-width: 560px;
 }
-
+.search:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
 .search > input {
   width: 100%;
   flex: 1;
@@ -68,14 +75,6 @@ main > img {
 .search > input:focus {
   outline-width: 0;
 }
-/* input {
-  height: 50px;
-  margin-bottom: 80px;
-  width: 80%;
-  padding: 1em;
-  border-radius: 30px;
-  border: 1px solid rgb(223, 225, 229);
-} */
 
 .btn-class {
   margin-top: 1.6em;
@@ -85,10 +84,16 @@ main > img {
   padding: 1em;
   border: none;
 }
-
+.btn-class > button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
 footer {
   background-color: rgb(242, 242, 242);
-  margin-top: 15.1em;
+  margin-top: 16.1em;
 }
 .footer-top {
   padding: 1em;
