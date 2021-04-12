@@ -42,9 +42,32 @@ main > img {
   width: 40%;
 }
 .sound {
-  width: 2.5%;
+  width: 5%;
+}
+.search {
+  display: flex;
+  align-items: centre;
+  border: 1px solid lightgray;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 48px;
+  max-width: 560px;
 }
 
+.search > input {
+  width: 100%;
+  flex: 1;
+  padding: 10px 30px;
+  font-size: medium;
+  border: none;
+  outline: none;
+}
+.search > input:focus {
+  outline-width: 0;
+}
 /* input {
   height: 50px;
   margin-bottom: 80px;
